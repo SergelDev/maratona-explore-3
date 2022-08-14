@@ -5,8 +5,10 @@
 }
 
 body{
-    background-color: #FFEDD5;
+    /* background-color: #FFEDD5; */
     font-family: 'Roboto Serif', serif;
+    background-image: url(./2621253.jpg);
+    background-repeat: no-repeat;
 }
 
 ul {
@@ -17,9 +19,9 @@ ul {
 /*FONTS*/
 
 h1, h2, h3, .price{
-    font-family: 'Robot Serif', serif;
+    font-family: 'Silkscreen', cursive;
     text-transform: uppercase;
-    color: 2D2C2A;
+
 }
 
 header{
@@ -47,6 +49,7 @@ header h1 span{
 
 header p{
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
     line-height: 16px;
     color: rgba(0, 0, 0, 0.7);
 }
@@ -57,11 +60,14 @@ section h2{
     text-align: center;
     margin-bottom: 24px;
     font-size: 18px;
+    border-radius: 10px;
+    box-shadow: -1.5px 2px 0 #888;
 }
 
 
 section{
     margin-bottom: 16px;
+   
 }
 
 ul li {
@@ -82,6 +88,20 @@ li.details {
 .details p{
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
     line-height: 21px;
+    text-align: justify;
 }
 
+.container_glass {
+    /* margin-bottom: 20px; */
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 8px;
+    background: rgba(189, 85, 85, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(170, 170, 170, 0.33);
+    margin-top: 15px;
+} 
